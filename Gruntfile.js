@@ -32,6 +32,7 @@ module.exports = function(grunt) {
           "_less/*.less",
           "**/*.html",
           "**/*.md",
+          "_data/*",
           "!**/node_modules/**",
           "!**/bower_components/**",
           "!**/_site/**"

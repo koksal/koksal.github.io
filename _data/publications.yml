@@ -1,0 +1,36 @@
+- title: Synthesis of Biological Models from Mutation Experiments
+  authors: Ali Sinan Köksal, Yewen Pu, Saurabh Srivastava, Rastislav Bodík, Jasmin Fisher, Nir Piterman
+  confLong: 40th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages
+  confShort: POPL
+  year: 2013
+  link: papers/KoksalETAL13SynthesisBiologicalModels.pdf
+  code: https://github.com/koksal/elegans-popl2013-code
+  slides: talks/KoksalETAL13SynthesisBiologicalModels.pdf
+
+- title: Constraints as Control 
+  authors: Ali Sinan Köksal, Viktor Kuncak, Philippe Suter
+  confLong: 39th ACM SIGPLAN-SIGACT Symposium on Principles of Programming Languages 
+  confShort: POPL
+  year: 2012
+  link: papers/KoksalETAL12ConstraintsAsControl.pdf
+
+- title: Satisfiability Modulo Recursive Programs.
+  authors: Philippe Suter, Ali Sinan Köksal, Viktor Kuncak
+  confLong: 18th International Static Analysis Symposium
+  confShort: SAS
+  year: 2011
+  link: papers/SuterETAL11SatisfiabilityModuloRecursivePrograms.pdf
+
+- title: "Scala to the Power of Z3: Integrating SMT and Programming (System Description)"
+  authors: Ali Sinan Köksal, Viktor Kuncak, Philippe Suter
+  confLong: 23rd International Conference on Automated Deduction
+  confShort: CADE
+  year: 2011
+  link: papers/KoksalETAL11ScalaZ3.pdf
+
+- title: Specifying and verifying sparse matrix codes
+  authors: Gilad Arnold, Johannes Hölzl, Ali Sinan Köksal, Rastislav Bodík, Mooly Sagiv
+  confLong: 15th ACM SIGPLAN International Conference on Functional Programming
+  confShort: ICFP
+  year: 2010
+  link: papers/ArnoldETAL10SpecifyingandVerifyingSparseMatrixCodes.pdf
