@@ -8,3 +8,9 @@ url: "http://koksal.org"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+exclude:
+  - bower_components
+  - node_modules
+  - package.json
+  - bower.json
