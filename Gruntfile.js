@@ -24,6 +24,9 @@ module.exports = function(grunt) {
       },
       jekyllServe: {
         command: 'jekyll serve'
+      },
+      deploy: {
+        command: 'rsync --compress --recursive --checksum --itemize-changes --delete _site/ login:public_html/'
       }
     },
     watch: {
@@ -66,4 +69,10 @@ module.exports = function(grunt) {
   grunt.registerTask('server', [
     'shell:jekyllServe'
   ]);
+  grunt.registerTask('deploy', [
+    'clean',
+    'less',
+    'shell:jekyllBuildProduction',
+    'shell:deploy'
+  ])
 };
