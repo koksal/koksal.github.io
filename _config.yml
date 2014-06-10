@@ -3,7 +3,7 @@ title: Ali Sinan Köksal
 email: koksal@cs.berkeley.edu
 description: "Ali Sinan Köksal, PhD student in Computer Science at UC Berkeley"
 baseurl: ""
-url: "http://koksal.org"
+url: "http://www.cs.berkeley.edu/~koksal"
 
 # Build settings
 markdown: kramdown
@@ -14,3 +14,5 @@ exclude:
   - node_modules
   - package.json
   - bower.json
+  - Gruntfile.js
+  - README.md
