@@ -6,7 +6,51 @@
     <body>
 
       <div class="container">
-        {{ content }}
+        <div class="page-header">
+          <h1>Ali Sinan Köksal</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-md-3">
+              <img src="assets/img/ask.jpg" height="260">
+              <h2>Contact</h2>
+              <address>
+              387 Soda Hall MC 1776
+              <br/>
+              Computer Science Division
+              <br/>
+              University of California, Berkeley
+              <br/>
+              Berkeley, CA 94720-1776
+              <br/>
+              <a href="mailto:koksal@cs.berkeley.edu">koksal@cs.berkeley.edu</a>
+              </address>
+          </div>
+          <div class="col-md-9">
+
+            <h2>About</h2>
+
+            {{ content }}
+
+            <h2>Publications</h2>
+
+            {% for paper in site.data.publications %}
+            <p>
+            <div>
+            <a href="{{ paper.link }}">{{ paper.title }}</a>
+            </div>
+            <div>{{ paper.authors }}</div>
+            <div>{{ paper.confLong }} ({{ paper.confShort }}), {{ paper.year }}</div>
+            {% if paper.slides %}
+            [<a href="{{ paper.slides }}">slides</a>]
+            {% endif %}
+            {% if paper.code %}
+            [<a href="{{ paper.code }}">source</a>]
+            {% endif %}
+            </p>
+            {% endfor %}
+          </div>
+        </div>
       </div>
 
       {% unless site.production %}

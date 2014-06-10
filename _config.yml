@@ -6,7 +6,7 @@ baseurl: ""
 url: "http://www.cs.berkeley.edu/~koksal"
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 permalink: pretty
 production: false
 
