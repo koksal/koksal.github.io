@@ -1,5 +1,10 @@
 module.exports = function(grunt) {
   grunt.initConfig({
+    clean: {
+      dist: [
+        'assets/css/main.css'
+      ]
+    },
     less: {
       development: {
         options: {
@@ -10,30 +15,44 @@ module.exports = function(grunt) {
         }
       }
     },
+    shell: {
+      jekyllBuild: {
+        command: 'jekyll build'
+      }
+      jekyllServe: {
+        command: 'jekyll serve --watch'
+      }
+    },
     watch: {
       less: {
         files: [
           "_less/*.less"
         ],
-        tasks: ['less']
+        tasks: [
+          'less'
+        ],
+        options: {
+          interrupt: true,
+          atBegin: true
+        }
       }
     },
-    clean: {
-      dist: [
-        'assets/css/main.css'
-      ]
-    }
   });
 
   grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-shell');
 
   grunt.registerTask('default', [
     'clean',
-    'less'
+    'less',
+    'shell:jekyllBuild'
   ]);
   grunt.registerTask('dev', [
     'watch'
-  ])
+  ]);
+  grunt.registerTask('server', [
+    'shell:jekyllServe'
+  ]);
 };
