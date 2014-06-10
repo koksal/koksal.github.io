@@ -5,7 +5,13 @@
 
     <body>
 
-    {{ content }}
+      <div class="container">
+        {{ content }}
+      </div>
+
+      {% unless site.production %}
+        <script src="//localhost:35729/livereload.js"></script>
+      {% endunless %}
 
     </body>
 </html>

@@ -8,6 +8,7 @@ url: "http://www.cs.berkeley.edu/~koksal"
 # Build settings
 markdown: kramdown
 permalink: pretty
+production: false
 
 exclude:
   - bower_components

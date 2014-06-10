@@ -18,22 +18,32 @@ module.exports = function(grunt) {
     shell: {
       jekyllBuild: {
         command: 'jekyll build'
-      }
+      },
+      jekyllBuildProduction: {
+        command: 'jekyll build --config _config.yml,_config_production.yml'
+      },
       jekyllServe: {
-        command: 'jekyll serve --watch'
+        command: 'jekyll serve'
       }
     },
     watch: {
       less: {
         files: [
-          "_less/*.less"
+          "_less/*.less",
+          "**/*.html",
+          "**/*.md",
+          "!**/node_modules/**",
+          "!**/bower_components/**",
+          "!**/_site/**"
         ],
         tasks: [
-          'less'
+          'less',
+          'shell:jekyllBuild'
         ],
         options: {
           interrupt: true,
-          atBegin: true
+          atBegin: true,
+          livereload: true
         }
       }
     },
@@ -47,7 +57,7 @@ module.exports = function(grunt) {
   grunt.registerTask('default', [
     'clean',
     'less',
-    'shell:jekyllBuild'
+    'shell:jekyllBuildProduction'
   ]);
   grunt.registerTask('dev', [
     'watch'
