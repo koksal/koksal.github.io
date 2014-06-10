@@ -17,3 +17,4 @@ exclude:
   - bower.json
   - Gruntfile.js
   - README.md
+  - setup
