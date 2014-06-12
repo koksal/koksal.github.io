@@ -43,15 +43,18 @@
             {% for paper in site.data.publications %}
             <p>
             <div>
-            <a href="{{ paper.link }}">{{ paper.title }}</a>
+              <a href="{{ paper.link }}" 
+                 onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }}']);">{{ paper.title }}</a>
             </div>
             <div>{{ paper.authors }}</div>
             <div>{{ paper.confLong }} ({{ paper.confShort }}), {{ paper.year }}</div>
             {% if paper.slides %}
-            [<a href="{{ paper.slides }}">slides</a>]
+            [<a href="{{ paper.slides }}"
+                onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }} (slides)'])">slides</a>]
             {% endif %}
             {% if paper.code %}
-            [<a href="{{ paper.code }}">source</a>]
+            [<a href="{{ paper.code }}"
+                onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }} (code)'])">source</a>]
             {% endif %}
             </p>
             {% endfor %}
