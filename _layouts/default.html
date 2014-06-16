@@ -47,7 +47,7 @@
                  onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }}']);">{{ paper.title }}</a>
             </div>
             <div>{{ paper.authors }}</div>
-            <div>{{ paper.confLong }} ({{ paper.confShort }}), {{ paper.year }}</div>
+            <div><span class="conference">{{ paper.confLong }} ({{ paper.confShort }})</span>, {{ paper.year }}</div>
             {% if paper.slides %}
             [<a href="{{ paper.slides }}"
                 onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }} (slides)'])">slides</a>]
