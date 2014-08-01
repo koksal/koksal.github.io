@@ -11,6 +11,6 @@
 
 Run `./setup` first, then run:
 
-* `grunt dev` to compile with livereload.
+* `grunt dev` to compile with livereload (preview will be available at http://localhost:4000).
 * `grunt deploy` to deploy.
 
