@@ -11,6 +11,7 @@
 
 Run `./setup` first, then run:
 
-* `grunt dev` to compile with livereload (preview will be available at [localhost port 4000](http://localhost:4000)).
+* `grunt dev` to compile with livereload.
+* `grunt server` to serve the page locally on port [4000](http://localhost:4000).
 * `grunt deploy` to deploy.
 
