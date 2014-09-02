@@ -38,7 +38,7 @@
          "Ruby",
          "QUILL"
       ],
-      "nbRepos":"78327"
+      "nbRepos":78327
    },
    {
       "name":"C",
@@ -95,7 +95,7 @@
          "Draco",
          "S programming language"
       ],
-      "nbRepos":"67706"
+      "nbRepos":67706
    },
    {
       "name":"Smalltalk",
@@ -147,7 +147,7 @@
          "ELENA",
          "Liberty BASIC"
       ],
-      "nbRepos":"63"
+      "nbRepos":63
    },
    {
       "name":"Objective-C",
@@ -167,7 +167,7 @@
          "Groovy",
          "Java"
       ],
-      "nbRepos":"36344"
+      "nbRepos":36344
    },
    {
       "name":"Eiffel",
@@ -188,7 +188,7 @@
          "PLT Scheme",
          "Scala"
       ],
-      "nbRepos":"55"
+      "nbRepos":55
    },
    {
       "name":"PHP",
@@ -203,7 +203,7 @@
          "Ferite",
          "Falcon"
       ],
-      "nbRepos":"114384"
+      "nbRepos":114384
    },
    {
       "name":"C#",
@@ -228,13 +228,13 @@
          "Vala",
          "Fan",
          "Polyphonic C sharp",
-         "C&Iuml;&permil;",
+         "C&omega;",
          "Spec sharp",
          "Oxygene",
          "Java",
          "Objeck"
       ],
-      "nbRepos":"32170"
+      "nbRepos":32170
    },
    {
       "name":"Common Lisp",
@@ -260,7 +260,7 @@
          "Java",
          "Le Lisp"
       ],
-      "nbRepos":"1153"
+      "nbRepos":1153
    },
    {
       "name":"Scheme",
@@ -299,7 +299,7 @@
          "Objeck",
          "Kernel"
       ],
-      "nbRepos":"882"
+      "nbRepos":882
    },
    {
       "name":"Dylan",
@@ -319,7 +319,7 @@
          "EuLisp",
          "Python"
       ],
-      "nbRepos":"13"
+      "nbRepos":13
    },
    {
       "name":"Ruby",
@@ -350,7 +350,7 @@
          "Ioke",
          "CoffeeScript"
       ],
-      "nbRepos":"218812"
+      "nbRepos":218812
    },
    {
       "name":"Perl",
@@ -384,7 +384,7 @@
          "Haskell",
          "CoffeeScript"
       ],
-      "nbRepos":"15412"
+      "nbRepos":15412
    },
    {
       "name":"Groovy",
@@ -398,7 +398,7 @@
       "influenced":[
 
       ],
-      "nbRepos":"3372"
+      "nbRepos":3372
    },
    {
       "name":"Prolog",
@@ -418,7 +418,7 @@
          "Datalog",
          "Clojure"
       ],
-      "nbRepos":"5829"
+      "nbRepos":5829
    },
    {
       "name":"Erlang",
@@ -434,7 +434,7 @@
          "Clojure",
          "Fan"
       ],
-      "nbRepos":"2061"
+      "nbRepos":2061
    },
    {
       "name":"Python",
@@ -474,7 +474,7 @@
          "Io",
          "F#"
       ],
-      "nbRepos":"95002"
+      "nbRepos":95002
    },
    {
       "name":"Tcl",
@@ -491,7 +491,7 @@
          "PHP",
          "Tea programming language"
       ],
-      "nbRepos":"338"
+      "nbRepos":338
    },
    {
       "name":"Haskell",
@@ -535,7 +535,7 @@
          "Agda theorem prover",
          "CoffeeScript"
       ],
-      "nbRepos":"4681"
+      "nbRepos":4681
    },
    {
       "name":"Boo",
@@ -546,7 +546,7 @@
       "influenced":[
 
       ],
-      "nbRepos":"24"
+      "nbRepos":24
    },
    {
       "name":"JavaScript",
@@ -574,7 +574,7 @@
          "Perl 6",
          "CoffeeScript"
       ],
-      "nbRepos":"264131"
+      "nbRepos":264131
    },
    {
       "name":"D",
@@ -589,7 +589,7 @@
          "MiniD",
          "Vala"
       ],
-      "nbRepos":"936"
+      "nbRepos":936
    },
    {
       "name":"AWK",
@@ -607,7 +607,7 @@
          "Tcl",
          "AMPL"
       ],
-      "nbRepos":"42"
+      "nbRepos":42
    },
    {
       "name":"Visual Basic",
@@ -621,7 +621,7 @@
          "VBScript",
          "REALbasic"
       ],
-      "nbRepos":"1854"
+      "nbRepos":1854
    },
    {
       "name":"AppleScript",
@@ -632,7 +632,7 @@
       "influenced":[
 
       ],
-      "nbRepos":"121"
+      "nbRepos":121
    },
    {
       "name":"Standard ML",
@@ -646,7 +646,7 @@
          "Scala",
          "Standard ML of New Jersey"
       ],
-      "nbRepos":"139"
+      "nbRepos":139
    },
    {
       "name":"Lua",
@@ -667,7 +667,7 @@
          "MiniD",
          "Falcon"
       ],
-      "nbRepos":"4048"
+      "nbRepos":4048
    },
    {
       "name":"ActionScript",
@@ -682,7 +682,7 @@
       "influenced":[
          "HaXe"
       ],
-      "nbRepos":"2413"
+      "nbRepos":2413
    },
    {
       "name":"REBOL",
@@ -699,7 +699,7 @@
          "Syp Script",
          "JSON"
       ],
-      "nbRepos":"17"
+      "nbRepos":17
    },
    {
       "name":"MATLAB",
@@ -713,7 +713,7 @@
       "influenced":[
 
       ],
-      "nbRepos":"2395"
+      "nbRepos":2395
    },
    {
       "name":"Nemerle",
@@ -727,7 +727,7 @@
       "influenced":[
 
       ],
-      "nbRepos":"49"
+      "nbRepos":49
    },
    {
       "name":"Scala",
@@ -742,7 +742,7 @@
          "Fortress programming language",
          "Fan"
       ],
-      "nbRepos":"6918"
+      "nbRepos":6918
    },
    {
       "name":"Factor",
@@ -756,7 +756,7 @@
          "Cat",
          "Alpoca"
       ],
-      "nbRepos":"17"
+      "nbRepos":17
    },
    {
       "name":"Vala",
@@ -768,7 +768,7 @@
       "influenced":[
 
       ],
-      "nbRepos":"321"
+      "nbRepos":321
    },
    {
       "name":"Io",
@@ -782,7 +782,7 @@
          "Ioke",
          "MiniD"
       ],
-      "nbRepos":"53"
+      "nbRepos":53
    },
    {
       "name":"Vala",
@@ -795,7 +795,7 @@
       "influenced":[
 
       ],
-      "nbRepos":"321"
+      "nbRepos":321
    },
    {
       "name":"F#",
@@ -811,7 +811,7 @@
       "influenced":[
          "Visual Basic .NET"
       ],
-      "nbRepos":"473"
+      "nbRepos":473
    },
    {
       "name":"Processing",
@@ -822,7 +822,7 @@
       "influenced":[
 
       ],
-      "nbRepos":"1207"
+      "nbRepos":1207
    },
    {
       "name":"R",
@@ -837,7 +837,7 @@
       "influenced":[
          "PCASTL"
       ],
-      "nbRepos":"2980"
+      "nbRepos":2980
    },
    {
       "name":"D",
@@ -848,7 +848,7 @@
       "influenced":[
 
       ],
-      "nbRepos":"936"
+      "nbRepos":936
    },
    {
       "name":"Clojure",
@@ -861,7 +861,7 @@
       "influenced":[
 
       ],
-      "nbRepos":"4904"
+      "nbRepos":4904
    },
    {
       "name":"Java",
@@ -915,7 +915,7 @@
          "Alpoca",
          "Generic Java programming language"
       ],
-      "nbRepos":"157618"
+      "nbRepos":157618
    },
    {
       "name":"Go",
@@ -929,7 +929,7 @@
       "influenced":[
 
       ],
-      "nbRepos":"6884"
+      "nbRepos":6884
    },
    {
       "name":"CoffeeScript",
@@ -944,6 +944,6 @@
       "influenced":[
          "MoonScript"
       ],
-      "nbRepos":"11133"
+      "nbRepos":11133
    }
 ]
