@@ -56,6 +56,19 @@
             {% endif %}
             </p>
             {% endfor %}
+
+            <h2>Talks</h2>
+
+            {% for talk in site.data.talks %}
+            <p>
+              <div>
+                <a href="{{ talk.link }}" 
+                   onclick="javascript: _gaq.push(['_trackPageview', '{{ talk.title }}']);">{{ talk.title }}</a>
+              </div>
+              <div>{{ talk.authors }}</div>
+              <div><span class="conference">{{ talk.confLong }}{% if talk.confShort %} ({{ talk.confShort }}) {% endif %}</span>, {{ talk.year }}</div>
+            </p>
+            {% endfor %}
           </div>
         </div>
       </div>
