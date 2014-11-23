@@ -67,6 +67,10 @@
               </div>
               <div>{{ talk.authors }}</div>
               <div><span class="conference">{{ talk.confLong }}{% if talk.confShort %} ({{ talk.confShort }}) {% endif %}</span>, {{ talk.year }}</div>
+              {% if talk.slides %}
+              [<a href="{{ talk.slides }}"
+                  onclick="javascript: _gaq.push(['_trackPageview', '{{ talk.title }} (slides)'])">slides</a>]
+              {% endif %}
             </p>
             {% endfor %}
           </div>
