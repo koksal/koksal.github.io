@@ -8,7 +8,7 @@ url: "http://www.cs.berkeley.edu/~koksal"
 analyticsID: "UA-25937299-1"
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 permalink: pretty
 production: false
 
