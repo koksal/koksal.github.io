@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-I'm a fourth-year graduate student in computer science at [UC Berkeley], advised
+I'm a graduate student in computer science at [UC Berkeley], advised
 by [Prof. Ras Bodik][bodik]. I'm interested in program synthesis and its
 applications to systems biology.
 
