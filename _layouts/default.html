@@ -3,44 +3,47 @@
 
   {% include head.html %}
 
-  <body>
+    <body>
 
-    <div class="container">
-      <div class="header">
-        <img src="assets/img/ask.jpg" class="profile-image">
-        <h1>ali sinan köksal</h1>
-      </div>
-
-      <div class="row">
-        <div class="col-md-4 col-lg-3">
-          <img src="assets/img/ask.jpg" width="220px" class="profile-image">
-          <h2>Contact</h2>
-          <address>
-            387 Soda Hall MC 1776
-            <br/>
-            Computer Science Division
-            <br/>
-            University of California, Berkeley
-            <br/>
-            Berkeley, CA 94720-1776
-            <br/>
-            <a href="mailto:koksal@cs.berkeley.edu">koksal@cs.berkeley.edu</a>
-          </address>
+      <div class="container">
+        <div class="page-header">
+          <h1>
+            <div class="name-header">
+              ali sinan köksal
+            </div>
+          </h1>
         </div>
-        <div class="col-md-8 col-lg-9">
 
-          <h2>About</h2>
+        <div class="row">
+          <div class="col-md-4 col-lg-3">
+              <img src="assets/img/ask.jpg" width="220px" class="profile-image">
+              <h2>Contact</h2>
+              <address>
+              387 Soda Hall MC 1776
+              <br/>
+              Computer Science Division
+              <br/>
+              University of California, Berkeley
+              <br/>
+              Berkeley, CA 94720-1776
+              <br/>
+              <a href="mailto:koksal@cs.berkeley.edu">koksal@cs.berkeley.edu</a>
+              </address>
+          </div>
+          <div class="col-md-8 col-lg-9">
 
-          {{ content }}
+            <h2>About</h2>
 
-          <h2>Publications</h2>
+            {{ content }}
 
-          {% for paper in site.data.publications %}
-          <p>
+            <h2>Publications</h2>
+
+            {% for paper in site.data.publications %}
+            <p>
             <div>
               {% if paper.link %}
               <a href="{{ paper.link }}" 
-                onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }}']);">{{ paper.title }}</a>
+                 onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }}']);">{{ paper.title }}</a>
               {% else %}
               {{ paper.title }}
               {% endif %}
@@ -50,22 +53,22 @@
               {{ paper.year }}</div>
             {% if paper.slides %}
             [<a href="{{ paper.slides }}"
-              onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }} (slides)'])">slides</a>]
+                onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }} (slides)'])">slides</a>]
             {% endif %}
             {% if paper.code %}
             [<a href="{{ paper.code }}"
-              onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }} (code)'])">source</a>]
+                onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }} (code)'])">source</a>]
             {% endif %}
-          </p>
-          {% endfor %}
+            </p>
+            {% endfor %}
+          </div>
         </div>
       </div>
-    </div>
 
-    {% unless site.production %}
-    <script src="//localhost:35729/livereload.js"></script>
-    {% endunless %}
+      {% unless site.production %}
+        <script src="//localhost:35729/livereload.js"></script>
+      {% endunless %}
 
-    {% include footer.html %}
-  </body>
+      {% include footer.html %}
+    </body>
 </html>

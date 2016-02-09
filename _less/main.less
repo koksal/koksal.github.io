@@ -2,6 +2,10 @@
 
 @brand-primary: #c0392b;
 
+.name-header {
+  font-size: 50px;
+}
+
 @font-family-serif: 'Merriweather', Georgia, "Times New Roman", Times, serif;
 @font-family-sans-serif: 'Lato', "Helvetica Neue", Helvetica, Arial, sans-serif;
 
@@ -10,32 +14,19 @@
 
 @font-size-base: 14px;
 
-.header {
-  padding: 30px;
-  text-align: center;
-}
+.image-header {
+  height: 300px;
+  width: 100%;
 
-.header h1 {
-  font-size: 50px;
+  background: url(../img/ameoba.jpg) no-repeat right center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
-@profile-image-size: 220px;
-@profile-image-border-size: @profile-image-size / 2;
 
 .profile-image {
-  width: @profile-image-size;
-  border-radius: @profile-image-border-size;
-  -webkit-border-radius: @profile-image-border-size;
-  -moz-border-radius: @profile-image-border-size;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-}
-
-@media (max-width: 500px) { 
-  .header h1 {
-    font-size: 40px;
-  }
+  box-shadow: 3px 3px 3px #bdc3c7;
 }
 
 .conference {
