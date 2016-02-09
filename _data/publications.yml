@@ -10,6 +10,7 @@
   confLong: RECOMB/ISCB Conference on Regulatory and Systems Genomics
   year: 2014
   link: papers/KoksalETAL14SynthesizingSignalingPathways.pdf
+  code: https://github.com/koksal/tps
   slides: talks/KoksalETAL14SynthesizingSignalingPathways.pdf
 
 - title: Synthesis of Biological Models from Mutation Experiments
