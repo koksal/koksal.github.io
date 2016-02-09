@@ -65,11 +65,5 @@ module.exports = function(grunt) {
   ]);
   grunt.registerTask('serve', [
     'shell:jekyllServe'
-  ]);
-  grunt.registerTask('deploy', [
-    'clean',
-    'less',
-    'shell:jekyllBuildProduction',
-    'shell:deploy'
   ])
 };
