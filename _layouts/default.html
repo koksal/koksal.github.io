@@ -11,30 +11,54 @@
           <h1>ali sinan köksal</h1>
         </div>
 
-        <h2>Contact</h2>
-        <address>
-        387 Soda Hall MC 1776
-        <br/>
-        Computer Science Division
-        <br/>
-        University of California, Berkeley
-        <br/>
-        Berkeley, CA 94720-1776
-        <br/>
-        <a href="mailto:koksal@cs.berkeley.edu">koksal@cs.berkeley.edu</a>
-        </address>
+        <div class="row">
+          <div class="col-md-4 col-lg-3">
+              <img src="assets/img/ask.jpg" width="220px" class="profile-image">
+              <h2>Contact</h2>
+              <address>
+              387 Soda Hall MC 1776
+              <br/>
+              Computer Science Division
+              <br/>
+              University of California, Berkeley
+              <br/>
+              Berkeley, CA 94720-1776
+              <br/>
+              <a href="mailto:koksal@cs.berkeley.edu">koksal@cs.berkeley.edu</a>
+              </address>
+          </div>
+          <div class="col-md-8 col-lg-9">
 
-        <h2>About</h2>
+            <h2>About</h2>
 
-        {{ content }}
+            {{ content }}
 
-        <h2>Publications</h2>
+            <h2>Publications</h2>
 
-        {% for paper in site.data.publications %}
-        <p>
-        <div>
-          <a href="{{ paper.link }}" 
-             onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }}']);">{{ paper.title }}</a>
+            {% for paper in site.data.publications %}
+            <p>
+            <div>
+              {% if paper.link %}
+              <a href="{{ paper.link }}" 
+                 onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }}']);">{{ paper.title }}</a>
+              {% else %}
+              {{ paper.title }}
+              {% endif %}
+            </div>
+            <div>{{ paper.authors }}</div>
+            <div><span class="conference">{{ paper.confLong }}{% if paper.confShort %} ({{ paper.confShort }}){% endif %}</span>, 
+              {{ paper.year }}</div>
+            {% if paper.slides %}
+            [<a href="{{ paper.slides }}"
+                onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }} (slides)'])">slides</a>]
+            {% endif %}
+            {% if paper.code %}
+            [<a href="{{ paper.code }}"
+                onclick="javascript: _gaq.push(['_trackPageview', '{{ paper.title }} (code)'])">source</a>]
+            {% endif %}
+            </p>
+            {% endfor %}
+          </div>
         </div>
         <div>{{ paper.authors }}</div>
         <div><span class="conference">{{ paper.confLong }} ({{ paper.confShort }})</span>, {{ paper.year }}</div>
