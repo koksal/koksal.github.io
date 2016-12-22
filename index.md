@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-I'm a graduate student in computer science at [UC Berkeley], advised by [Prof. Ras Bodik][bodik] and [Prof. Nir Yosef][yosef]. I'm currently living in Seattle, working in the [PLSE lab][plse] at the [University of Washington][uw]. I'm interested in formal methods, program synthesis, verification, and systems biology.
+I'm a graduate student in computer science at [UC Berkeley], advised by [Prof. Ras Bodik][bodik] and [Prof. Nir Yosef][yosef]. I'm currently living in Seattle, visiting the [PLSE lab][plse] at the [University of Washington][uw]. I'm interested in formal methods, program synthesis, verification, and systems biology.
 
 I have completed my B.Sc. and M.Sc. degrees at [EPFL], where my advisor was [Prof. Viktor Kuncak][kuncak].
 
