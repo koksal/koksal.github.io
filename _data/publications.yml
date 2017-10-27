@@ -1,17 +1,16 @@
+- title: Synthesizing signaling pathways from temporal phosphoproteomic data
+  authors: Ali Sinan Köksal, Kirsten Beck, Dylan R. Cronin, Aaron McKenna, Nathan D. Camp, Saurabh Srivastava, Matthew E. MacGilvray, Rastislav Bodík, Alejandro Wolf-Yadlin, Ernest Fraenkel, Jasmin Fisher, Anthony Gitter
+  confLong: bioRxiv
+  year: 2017
+  link: https://doi.org/10.1101/209676
+  code: https://github.com/koksal/tps
+
 - title: Synthesising Executable Gene Regulatory Networks from Single-Cell Gene Expression Data
   authors: Steven Woodhouse, Nir Piterman, Ali Sinan Köksal, Jasmin Fisher
   confLong: 27th International Conference on Computer Aided Verification
   confShort: CAV
   year: 2015
   link: papers/FisherETAL15SynthesisingExecutableGeneRegulatoryNetworks.pdf
-
-- title: "Synthesizing signaling pathways from temporal phosphoproteomic data (Abstract)"
-  authors: Ali Sinan Köksal, Anthony Gitter, Kirsten Beck, Aaron McKenna, Saurabh Srivastava, Nir Piterman, Rastislav Bodík, Alejandro Wolf-Yadlin, Ernest Fraenkel, Jasmin Fisher
-  confLong: RECOMB/ISCB Conference on Regulatory and Systems Genomics
-  year: 2014
-  link: papers/KoksalETAL14SynthesizingSignalingPathways.pdf
-  code: https://github.com/koksal/tps
-  slides: talks/KoksalETAL14SynthesizingSignalingPathways.pdf
 
 - title: Synthesis of Biological Models from Mutation Experiments
   authors: Ali Sinan Köksal, Yewen Pu, Saurabh Srivastava, Rastislav Bodík, Jasmin Fisher, Nir Piterman
