@@ -18,7 +18,7 @@
   confShort: POPL
   year: 2013
   link: papers/KoksalETAL13SynthesisBiologicalModels.pdf
-  code: https://github.com/koksal/elegans-popl2013-code
+  code: https://github.com/koksal/sbl
   slides: talks/KoksalETAL13SynthesisBiologicalModels.pdf
 
 - title: Constraints as Control 
