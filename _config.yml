@@ -10,7 +10,7 @@ analyticsID: "UA-25937299-1"
 # Build settings
 markdown: kramdown
 permalink: pretty
-production: false
+production: true
 
 exclude:
   - bower_components
