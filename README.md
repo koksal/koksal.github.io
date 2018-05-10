@@ -1,6 +1,6 @@
 # About
 
-[Jekyll](http://jekyllrb.com/) sources for [my academic website](http://www.cs.berkeley.edu/~koksal/).
+[Jekyll](http://jekyllrb.com/) sources for [my website](https://koksal.org/).
 
 # Dependencies
 
