@@ -17,10 +17,10 @@ module.exports = function(grunt) {
     },
     shell: {
       jekyllBuild: {
-        command: 'jekyll build'
+        command: 'jekyll build --config _config.yml,_config_dev.yml'
       },
       jekyllBuildProduction: {
-        command: 'jekyll build --config _config.yml,_config_production.yml'
+        command: 'jekyll build --config _config.yml'
       },
       jekyllServe: {
         command: 'jekyll serve'
