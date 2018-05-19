@@ -5793,23 +5793,8 @@ button.close {
 body {
   font-weight: 400;
   line-height: 1.63;
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
-}
-/* Footer-related: */
-html {
-  position: relative;
-  min-height: 100%;
-}
-#footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  /* Set the fixed height of the footer here */
-  height: 60px;
-  background-color: #f5f5f5;
+  margin-bottom: 11px;
 }
 .container .text-muted {
-  margin: 20px 0;
-  font-size: 14px;
+  font-size: 80%;
 }

@@ -66,12 +66,12 @@
             {% endfor %}
           </div>
         </div>
+        <hr>
+        {% include footer.html %}
       </div>
 
       {% unless site.production %}
         <script src="//localhost:35729/livereload.js"></script>
       {% endunless %}
-
-      {% include footer.html %}
     </body>
 </html>
