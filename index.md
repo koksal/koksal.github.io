@@ -2,10 +2,7 @@
 layout: default
 ---
 
-
-I'm a Ph.D. candidate in computer science at [UC Berkeley], advised by [Prof. Ras Bodik][bodik] and [Prof. Nir Yosef][yosef]. I'm currently living in Seattle, visiting the [PLSE lab][plse] at the [University of Washington][uw]. I'm interested in programming languages, program synthesis, compilers, machine learning, and software engineering. 
-
-For my dissertation work, I'm developing program synthesis methods and tools as applied to systems biology.
+I recently completed my Ph.D. in computer science at [UC Berkeley], working with [Prof. Ras Bodik][bodik] and [Prof. Nir Yosef][yosef]. For my dissertation work, I developed program synthesis methods and tools as applied to systems biology.
 
 I have completed my B.Sc. and M.Sc. degrees at [EPFL], where my advisor was [Prof. Viktor Kuncak][kuncak]. For my M.Sc. thesis, I developed [Kaplan], an extension of Scala that supports constraint programming.
 
