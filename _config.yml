@@ -4,6 +4,7 @@ email: koksal@cs.berkeley.edu
 description: "Ali Sinan Köksal, PhD student in Computer Science at UC Berkeley"
 baseurl: ""
 url: "https://koksal.org/"
+timezone: America/Los_Angeles
 
 analyticsID: "UA-25937299-1"
 
