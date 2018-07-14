@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I recently completed my Ph.D. in computer science at [UC Berkeley], working with [Prof. Ras Bodik][bodik] and [Prof. Nir Yosef][yosef]. For my dissertation work, I developed program synthesis methods and tools as applied to systems biology.
+I'm a software engineer at [Google], working on the [Knowledge Graph][kg]. Previously, I completed my Ph.D. in computer science at [UC Berkeley], working with [Prof. Ras Bodik][bodik] and [Prof. Nir Yosef][yosef]. For my dissertation work, I developed program synthesis methods and tools as applied to systems biology.
 
 I have completed my B.Sc. and M.Sc. degrees at [EPFL], where my advisor was [Prof. Viktor Kuncak][kuncak]. For my M.Sc. thesis, I developed [Kaplan], an extension of Scala that supports constraint programming.
 
@@ -10,6 +10,8 @@ In Summer 2016, I was an intern at [Sift Science], and I worked on improving and
 
 My résumé can be found [here][resume].
 
+[Google]: https://www.google.com/
+[kg]: https://www.google.com/intl/en_us/insidesearch/features/search/knowledge.html
 [EPFL]: http://www.epfl.ch
 [UC Berkeley]: http://www.eecs.berkeley.edu
 [Sift Science]: https://siftscience.com
