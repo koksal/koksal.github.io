@@ -1,8 +1,8 @@
 - title: Synthesizing signaling pathways from temporal phosphoproteomic data
   authors: Ali Sinan Köksal, Kirsten Beck, Dylan R. Cronin, Aaron McKenna, Nathan D. Camp, Saurabh Srivastava, Matthew E. MacGilvray, Rastislav Bodík, Alejandro Wolf-Yadlin, Ernest Fraenkel, Jasmin Fisher, Anthony Gitter
-  confLong: bioRxiv
-  year: 2017
-  link: https://doi.org/10.1101/209676
+  confLong: Cell Reports
+  year: 2018
+  link: https://www.cell.com/cell-reports/fulltext/S2211-1247(18)31389-5
   code: https://github.com/koksal/tps
 
 - title: Synthesising Executable Gene Regulatory Networks from Single-Cell Gene Expression Data
