@@ -2,7 +2,7 @@
 layout: default
 ---
 
-I'm a software engineer at [Google]. I work on building and indexing the [Knowledge Graph][kg], the structured knowledge base used in Google Search and Google Assistant.
+I'm a software engineer at [Google]. I’m leading efforts on improving data freshness, reliability, and scalability for critical Search features such as Sports, Weather, and Civics.
 
 Previously, I completed my Ph.D. in computer science at [UC Berkeley], working with [Prof. Ras Bodik][bodik] and [Prof. Nir Yosef][yosef]. For my dissertation work, I developed program synthesis methods and tools as applied to systems biology.
 
